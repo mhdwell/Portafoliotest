@@ -1,0 +1,194 @@
+*{margin: 0;padding: 0;}
+body {
+	background-color:#222 ;
+	color: burlywood;
+	font-family: 'Roboto';
+}
+
+.name {
+	
+	
+	height:200px ;
+	text-align: center;
+	font-size: 4em;
+	
+}
+
+.menu {
+	background-color: #424;
+	height:100% ;
+	width: 260px;
+	position: fixed;
+	z-index: 3;
+	top: 2;
+	text-decoration: none;
+	
+	
+}
+
+.containerimg {  
+	
+	float: right;
+	margin: auto;
+	
+	width: 80%;
+}
+
+.c {
+	width: 100%;
+	
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+
+.imgs {
+	
+	max-width:  25%;
+	
+	height: 300px;
+	margin: 5px;
+	overflow: hidden;
+}
+.imgs:hover {
+	
+	width:  30%;
+	height: 400px;
+	padding-top: 40px;
+padding-bottom: 120px;
+overflow: visible;
+}
+.vid {
+	
+	max-width:  35%;
+	
+
+	margin: 5px;
+	overflow: hidden;
+}
+.vid:hover {
+	
+	width: 60%;
+
+	padding-top: 10px;
+padding-bottom: 20px;
+overflow: visible;
+}
+
+.m {
+	
+	width:  120%;
+	position: relative;
+	top: -27px;
+	right: 25px;
+		
+}
+.m:hover {
+	
+	width:  350px;
+	position: relative;
+	z-index: 3;
+	margin: auto;
+	display: block;
+	right: 27px;
+		
+}
+.m2 {
+	
+	width:  320%;
+	position: relative;
+	top: -27px;
+	right: 145px;
+		
+}
+.m2:hover {
+	
+	width:  550px;
+	position: relative;
+	z-index: 3;
+	margin: auto;
+	display: block;
+	right: 145px;
+		
+}
+.m3 {
+	
+	width:  220%;
+	position: relative;
+	top: -57px;
+	right: 145px;
+		
+}
+.m3:hover {
+	
+	width:  550px;
+	position: relative;
+	z-index: 3;
+	margin: auto;
+	display: block;
+	right: 145px;
+		
+}
+
+
+@media(max-width: 320px)
+{
+	.imgs {
+	
+	width:  85%;
+	
+	height: 400px;
+	margin: 5px;
+	overflow: hidden;
+}
+	.c {
+	
+	display: flex;
+	flex-wrap: nowrap;
+	align-content: center;	
+	flex-direction: column;	
+	
+   	}
+    
+}
+
+
+.video {
+	width: 100%;
+	
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.tex2 {
+	font-size: 4em;
+	text-align: center;
+	background-color: darkorchid; 
+	margin: auto:
+}
+
+.button a {
+	font-size:2EM ;
+	text-decoration: none;
+	color: aliceblue;
+	
+}
+.button a:HOVER {
+	font-size:2.5EM ;
+	text-decoration: none;
+	color: sandybrown;
+	
+}
+
+.foot {
+   background-color: darkorchid;
+	height: 250px;
+	
+}
+
+.info {
+	background-color: whitesmoke;
+	color: black;
+}
